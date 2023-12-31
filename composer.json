@@ -1,22 +1,23 @@
 {
-  "name": "bitrix-expert/monolog-adapter",
+  "name": "vadimpalgov/monolog-adapter",
   "description": "Monolog adapter for Bitrix CMS",
   "keywords": ["bitrix", "monolog", "logger", "log", "psr-3"],
   "type": "library",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/bitrix-expert/monolog-adapter/issues",
-    "source": "https://github.com/bitrix-expert/monolog-adapter/"
+    "issues": "https://github.com/vadimpalgov/monolog-adapter/issues",
+    "source": "https://github.com/vadimpalgov/monolog-adapter/"
   },
   "authors": [
     {
-      "name": "Nik Samokhvalov",
-      "email": "nik@samokhvalov.info"
+      "name": "Vadim Palgov",
+      "email": "v.palgov@gmail.com"
     }
   ],
   "require": {
-    "php": ">=5.3",
-    "monolog/monolog": "1.*",
+    "php": ">=8.0",
+    "psr/log": "^3.0",
+    "monolog/monolog": "1.* || ^2.0 || ^3.0",
     "theorchard/monolog-cascade": "~0.2"
   },
   "autoload": {

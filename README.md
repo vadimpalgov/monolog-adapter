@@ -1,9 +1,9 @@
 # Monolog adapter for Bitrix CMS
 
-[![Build Status](https://travis-ci.org/bitrix-expert/monolog-adapter.svg)](https://travis-ci.org/bitrix-expert/monolog-adapter)
-[![Latest Stable Version](https://poser.pugx.org/bitrix-expert/monolog-adapter/v/stable)](https://packagist.org/packages/bitrix-expert/monolog-adapter) 
-[![Total Downloads](https://poser.pugx.org/bitrix-expert/monolog-adapter/downloads)](https://packagist.org/packages/bitrix-expert/monolog-adapter) 
-[![License](https://poser.pugx.org/bitrix-expert/monolog-adapter/license)](https://packagist.org/packages/bitrix-expert/monolog-adapter)
+[![Build Status](https://travis-ci.org/vadimpalgov/monolog-adapter.svg)](https://travis-ci.org/vadimpalgov/monolog-adapter)
+[![Latest Stable Version](https://poser.pugx.org/vadimpalgov/monolog-adapter/v/stable)](https://packagist.org/packages/vadimpalgov/monolog-adapter) 
+[![Total Downloads](https://poser.pugx.org/vadimpalgov/monolog-adapter/downloads)](https://packagist.org/packages/vadimpalgov/monolog-adapter) 
+[![License](https://poser.pugx.org/vadimpalgov/monolog-adapter/license)](https://packagist.org/packages/vadimpalgov/monolog-adapter)
 
 [Monolog](https://github.com/Seldaek/monolog) adapter for Bitrix CMS:
 
@@ -11,12 +11,13 @@
 * Handler for logger uncaught exceptions of the Bitrix.
 * Configuration loggers with using the `.settings.php`.
 
+[MonologAdapter](https://github.com/bitrix-expert/monolog-adapter) based package
 ## Installation
 
 Download the library using Composer:
 
 ```bash
-composer require bitrix-expert/monolog-adapter
+composer require vadimpalgov/monolog-adapter
 ```
 
 Write in the [`init.php`](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&LESSON_ID=2916) file:
