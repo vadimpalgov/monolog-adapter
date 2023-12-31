@@ -1,9 +1,9 @@
 # Monolog adapter for Bitrix CMS
 
-[![Build Status](https://travis-ci.org/vadimpalgov/monolog-adapter.svg)](https://travis-ci.org/vadimpalgov/monolog-adapter)
-[![Latest Stable Version](https://poser.pugx.org/vadimpalgov/monolog-adapter/v/stable)](https://packagist.org/packages/vadimpalgov/monolog-adapter) 
-[![Total Downloads](https://poser.pugx.org/vadimpalgov/monolog-adapter/downloads)](https://packagist.org/packages/vadimpalgov/monolog-adapter) 
-[![License](https://poser.pugx.org/vadimpalgov/monolog-adapter/license)](https://packagist.org/packages/vadimpalgov/monolog-adapter)
+[![Build Status](https://travis-ci.org/vadimpalgov/monolog-bitrix.svg)](https://travis-ci.org/vadimpalgov/monolog-adapter)
+[![Latest Stable Version](https://poser.pugx.org/vadimpalgov/monolog-bitrix/v/stable)](https://packagist.org/packages/vadimpalgov/monolog-adapter) 
+[![Total Downloads](https://poser.pugx.org/vadimpalgov/monolog-bitrix/downloads)](https://packagist.org/packages/vadimpalgov/monolog-adapter) 
+[![License](https://poser.pugx.org/vadimpalgov/monolog-bitrix/license)](https://packagist.org/packages/vadimpalgov/monolog-adapter)
 
 [Monolog](https://github.com/Seldaek/monolog) adapter for Bitrix CMS:
 
@@ -17,7 +17,7 @@
 Download the library using Composer:
 
 ```bash
-composer require vadimpalgov/monolog-adapter
+composer require vadimpalgov/monolog-bitrix
 ```
 
 Write in the [`init.php`](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&LESSON_ID=2916) file:

@@ -1,12 +1,12 @@
 {
-  "name": "vadimpalgov/monolog-adapter",
+  "name": "vadimpalgov/monolog-bitrix",
   "description": "Monolog adapter for Bitrix CMS",
   "keywords": ["bitrix", "monolog", "logger", "log", "psr-3"],
   "type": "library",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/vadimpalgov/monolog-adapter/issues",
-    "source": "https://github.com/vadimpalgov/monolog-adapter/"
+    "issues": "https://github.com/vadimpalgov/monolog-bitrix/issues",
+    "source": "https://github.com/vadimpalgov/monolog-bitrix/"
   },
   "authors": [
     {
