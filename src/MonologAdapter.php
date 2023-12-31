@@ -4,7 +4,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Bex\Monolog;
+namespace VadimPalgov\Monolog;
 
 use Bitrix\Main\Config\Configuration;
 use Cascade\Cascade;

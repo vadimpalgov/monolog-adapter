@@ -7,4 +7,4 @@
 /**
  * @deprecated Recommend loading the configuration from `init.php` file.
  */
-\Bex\Monolog\MonologAdapter::loadConfiguration();
+\VadimPalgov\Monolog\MonologAdapter::loadConfiguration();

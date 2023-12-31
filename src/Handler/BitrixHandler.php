@@ -4,11 +4,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Bex\Monolog\Handler;
+namespace VadimPalgov\Monolog\Handler;
 
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Logger;
-use Bex\Monolog\Formatter\BitrixFormatter;
+use VadimPalgov\Monolog\Formatter\BitrixFormatter;
 
 /**
  * Monolog handler for the event log of Bitrix CMS.

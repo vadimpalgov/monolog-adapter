@@ -4,7 +4,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Bex\Monolog\Formatter;
+namespace VadimPalgov\Monolog\Formatter;
 
 use Monolog\Formatter\FormatterInterface;
 use Monolog\Logger;
