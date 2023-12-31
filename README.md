@@ -25,7 +25,7 @@ Write in the [`init.php`](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43
 ```php
 <?php
 
-\Bex\Monolog\MonologAdapter::loadConfiguration();
+\VadimPalgov\Monolog\MonologAdapter::loadConfiguration();
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ return array(
     'exception_handling' => array(
         'value' => array(
             'log' => array(
-                'class_name' => '\Bex\Monolog\ExceptionHandlerLog',
+                'class_name' => '\VadimPalgov\Monolog\ExceptionHandlerLog',
                 'settings' => array(
                     'logger' => 'app'
                 ),
@@ -56,7 +56,7 @@ return array(
                     'stream' => '/path/to/logs/app.log'
                 ),
                 'feedback_event_log' => array(
-                    'class' => '\Bex\Monolog\Handler\BitrixHandler',
+                    'class' => '\VadimPalgov\Monolog\Handler\BitrixHandler',
                     'level' => 'DEBUG',
                     'event' => 'TYPE_FOR_EVENT_LOG',
                     'module' => 'vendor.module'
@@ -81,7 +81,7 @@ Use rules property for filter logging uncaught exceptions by instanceof logic:
 'exception_handling' => array(
     'value' => array(
         'log' => array(
-            'class_name' => '\Bex\Monolog\ExceptionHandlerLog',
+            'class_name' => '\VadimPalgov\Monolog\ExceptionHandlerLog',
             'settings' => array(
                 'logger' => 'app',
                 'rules' => array(
@@ -99,7 +99,7 @@ Use context property for change log debug data format:
 'exception_handling' => array(
     'value' => array(
         'log' => array(
-            'class_name' => '\Bex\Monolog\ExceptionHandlerLog',
+            'class_name' => '\VadimPalgov\Monolog\ExceptionHandlerLog',
             'settings' => array(
                 'logger' => 'app',
                 'context' => function ($exception) {
@@ -142,5 +142,5 @@ The result in the Control Panel of Bitrix:
 
 ## Requirements
 
-* PHP >= 5.3
+* PHP >= 7.4
 * Bitrix CMS >= 16.5.6

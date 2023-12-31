@@ -21,7 +21,7 @@
     "theorchard/monolog-cascade": "~0.2"
   },
   "autoload": {
-    "psr-4": {"Bex\\Monolog\\": "src/"},
+    "psr-4": {"VadimPalgov\\Monolog\\": "src/"},
     "files": ["src/bootstrap.php"]
   }
 }
